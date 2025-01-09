@@ -6,7 +6,7 @@
 . 画像ファイルを比較して、異なる点をマーキングして画像ファイルを保存します。
 
 
-[source]
+[source, python]
 ----
 usage: python -m compare_pdf [-h] [-o OUTPUT] pdf1 pdf2
 
@@ -18,4 +18,10 @@ options:
   -h, --help            show this help message and exit
   -o OUTPUT, --output OUTPUT
                         output folder
+----
+
+日本語OCR対応追加ライブラリ
+[source, bash]
+----
+sudo apt install tesseract-ocr
 ----
